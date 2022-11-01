@@ -35,6 +35,7 @@ public class lengthOfLongestSubstring {
         }
         return max;
     }
+
     public int lengthOfLongestSubstring_1(String s) {
         //用链表实现双头通道，是先进先出的
         Queue<Character> queue = new LinkedList<>();
@@ -51,8 +52,4 @@ public class lengthOfLongestSubstring {
         }
         return max;
     }
-
-
-
-
 }
